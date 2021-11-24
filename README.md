@@ -1,9 +1,13 @@
 # vue-trigger
 ![GitHub Stars](https://img.shields.io/github/stars/kakachake/vue-trigger)
 
+## 介绍
+
+一个基于vue3.0的用于创建滚动动画的库
+
 ## 致谢
 
-该项目基于[TriggerJs](https://github.com/triggerjs/trigger)进行开发
+该项目基于[TriggerJs](https://github.com/triggerjs/trigger)进行开发2
 
 ## 使用
 
