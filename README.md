@@ -317,7 +317,11 @@ params:
 - config:必须。配置对象或多个配置对象组成的数组集合，配置项如上表
 
 ```javascript
-//示例：
+// 示例
+import { getCurrentInstance} from 'vue'
+const { appContext } = getCurrentInstance()
+//………………
+// 获取trigger实例
 trigger.bind('.elm', config)
 ```
 
@@ -331,7 +335,12 @@ params:
 
 ```javascript
 // 示例
-trigger.bind('.elm')
+import { getCurrentInstance} from 'vue'
+const { appContext } = getCurrentInstance()
+//………………
+// 获取trigger实例
+const trigger = appContext.config.globalProperties.$trigger
+trigger.destroy('.elm')
 ```
 
 **注：使用指令方式不需要手动销毁**
