@@ -1,6 +1,6 @@
 {
   "name": "vue-trigger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library based on vue3.0 for creating scroll-based animation with HTML attributes and CSS variables.",
   "main": "dist/index.js",
   "scripts": {
