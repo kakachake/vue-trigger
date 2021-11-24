@@ -13,6 +13,10 @@
 
 该项目基于[TriggerJs](https://github.com/triggerjs/trigger)进行开发
 
+## 演示
+
+https://kakachake.github.io/example
+
 ## 使用
 
 1.安装
