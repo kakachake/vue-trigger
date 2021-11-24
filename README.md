@@ -1,5 +1,9 @@
 # vue-trigger
+[![npm version](https://img.shields.io/npm/v/vue-trigger)]([vue-trigger - npm (npmjs.com)](https://www.npmjs.com/package/vue-trigger))
+[![npm downloads](https://img.shields.io/npm/dm/vue-trigger)](https://www.npmjs.com/package/vue-trigger)
 ![GitHub Stars](https://img.shields.io/github/stars/kakachake/vue-trigger)
+![Github Forks](https://img.shields.io/github/forks/kakachake/vue-trigger)
+![License](https://img.shields.io/github/license/kakachake/vue-trigger)
 
 ## 介绍
 
