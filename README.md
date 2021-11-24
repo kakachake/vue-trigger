@@ -11,7 +11,7 @@
 
 ## 致谢
 
-该项目基于[TriggerJs](https://github.com/triggerjs/trigger)进行开发2
+该项目基于[TriggerJs](https://github.com/triggerjs/trigger)进行开发
 
 ## 使用
 
