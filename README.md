@@ -1,6 +1,10 @@
 # vue-trigger
 ![GitHub Stars](https://img.shields.io/github/stars/kakachake/vue-trigger)
 
+## 致谢
+
+该项目基于[TriggerJs](https://github.com/triggerjs/trigger)进行开发
+
 ## 使用
 
 1.安装
@@ -180,7 +184,8 @@ export default {
         steps: 1000,
         mode: 'smooth',
         mapping: {
-          '0...3': 5,
+          // 多种映射方式
+          '0,1,2,3': 5,
           '6...7': 1,
           '8...10': 0
         }
@@ -280,4 +285,23 @@ span {
 </style>
 
 ```
+
+## 配置文件-config
+
+config接收的为一个config配置对象或数组，数组包含多个config对象
+
+| 属性名称 | 类型   | 默认值  | 简介                                                         |
+| -------- | ------ | ------- | ------------------------------------------------------------ |
+| `name`   | String | -       | 接收滚动值的 CSS 变量名称                                    |
+| `from`   | Number | `0`     | 起始值                                                       |
+| `to`     | Number | `1`     | 终点值                                                       |
+| `steps`  | Number | `100`   | 从 `from` 至 `to` 之间触发多少次                             |
+| `step`   | Number | `0`     | 每次递加的数值，如果此值不为 `0`，则会忽略 `steps` 的设置。  |
+| `map`    | Object | null    | 将一个值映射至另一个值。格式: 见上述使用示例                 |
+| `edge`   | String | cover   | 计算滚动值的起始点与结束点。`cover` 代表画面外至画面外，即在元素从底部进入画面时开始计算，从顶部完整离开画面时结束；`inset` 代表当元素的顶部触及页面的顶部时开始计算，元素的底部触及页面的底部时结束。以下将有图解说明。 |
+| mode     | String | default | 当map映射存在间断时，设置`smooth`将采用平滑的方式从两个mapvalue间过渡，支持数值型和颜色，见上述示例 |
+
+## 授权协议
+
+vue-trigger 使用 [MIT 授权](LICENSE).
 

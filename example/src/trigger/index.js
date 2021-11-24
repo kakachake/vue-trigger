@@ -524,7 +524,7 @@
 
   const DEFAULT_TO = 1;
   const DEFAULT_FROM = 0;
-  const DEFAULT_STEP = 0;
+  const DEFAULT_STEP = 1;
   const DEFAULT_STEPS = 100;
   const DEFAULT_EDGE = 'cover';
   const DEFAULT_MODE = 'retain';
